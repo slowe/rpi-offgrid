@@ -1,6 +1,6 @@
 # Save battery level
 
-perl saveBattery.pl /mnt/Trifle/osm-extract/LOG
+perl /mnt/Trifle/rpi-offgrid/scripts/saveBattery.pl /mnt/Trifle/osm-extract/LOG
 
 cd /mnt/Trifle/osm-extract/
 

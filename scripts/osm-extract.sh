@@ -12,4 +12,4 @@ perl update.pl
 ./update.sh
 
 # Wait before shutting down
-#/bin/sleep 60; /home/pi/shutdown.py
+/bin/sleep 60; /mnt/Trifle/rpi-offgrid/scripts/shutdown.py

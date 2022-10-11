@@ -1,5 +1,8 @@
 # Setting up PiJuice
 
+The [PiJuice](https://uk.pi-supply.com/products/pijuice-standard) provides a battery pack for a Raspberry Pi with 40 GPIO pins. [PiJuice Documentation](https://github.com/PiSupply/PiJuice/tree/master/Documentation), [PiJuice Software](https://github.com/PiSupply/PiJuice/tree/master/Software), and notes about the [hardware](https://github.com/PiSupply/PiJuice/tree/master/Hardware).
+
+
 Set up the PiJuice GUI
 
 ```
@@ -24,3 +27,6 @@ Run the OSM Extract updater code:
 0 9 * * * /bin/sleep 30; /mnt/Trifle/rpi-offgrid/scripts/osm-extract.sh
 ```
 
+### How to run a user script in PiJuice
+
+https://learn.pi-supply.com/make/how-to-run-a-user-script-with-the-pijuice-power-events/

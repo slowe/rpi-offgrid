@@ -7,9 +7,8 @@ cd /home/pi/rpi-offgrid/osm/
 # Update data
 perl update.pl
 
-
 # Commit changes to Github
 ./update.sh
 
 # Wait before shutting down
-/bin/sleep 60; /home/pi/rpi-offgrid/scripts/shutdown.py
+/home/pi/rpi-offgrid/scripts/shutdown.py

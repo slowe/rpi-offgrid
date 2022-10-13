@@ -1,8 +1,8 @@
 # Save battery level
 
-perl /mnt/Trifle/rpi-offgrid/scripts/saveBattery.pl /mnt/Trifle/osm-extract/LOG
+perl /home/pi/rpi-offgrid/scripts/saveBattery.pl /home/pi/osm-extract/LOG
 
-cd /mnt/Trifle/osm-extract/
+cd /home/pi/rpi-offgrid/osm/
 
 # Update data
 perl update.pl
@@ -12,4 +12,4 @@ perl update.pl
 ./update.sh
 
 # Wait before shutting down
-/bin/sleep 60; /mnt/Trifle/rpi-offgrid/scripts/shutdown.py
+/bin/sleep 60; /home/pi/rpi-offgrid/scripts/shutdown.py

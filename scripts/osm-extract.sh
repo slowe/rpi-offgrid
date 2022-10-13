@@ -2,7 +2,7 @@
 
 perl /home/pi/rpi-offgrid/scripts/saveBattery.pl /home/pi/osm-extract/LOG
 
-cd /home/pi/rpi-offgrid/osm/
+cd /home/pi/osm-extract/
 
 # Update data
 perl update.pl
